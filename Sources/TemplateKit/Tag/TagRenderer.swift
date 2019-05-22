@@ -17,6 +17,7 @@ public var defaultTags: [String: TagRenderer] {
     return [
         "": Print(),
         "contains": Contains(),
+        "containsKey": ContainsKey(),
         "lowercase": Lowercase(),
         "uppercase": Uppercase(),
         "capitalize": Capitalize(),
